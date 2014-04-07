@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+
+    <!-- Начало Скрипты jQUery, inputmask , jqModal -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="./js/jquery.inputmask.js"></script>
+    <script src="./js/jqModal/jqModal.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".input-phone").inputmask("mask", {"mask": "+7 (999) 999-9999"});
+            $("#modal").jqm();
+        })
+    </script>
+    <!-- Конец Скрипты jQUery, inputmask , jqModal -->
+
+</head>
+<body>
+
+<div class="wrapper">
+
+
+<!-- Начало блока СварЭкс 12 лет на рынке ... -->
+<div id="first-line">
+        <span id="title">
+            <span class="orange">Свар</span><span>Экс</span>
+        </span>
+        <span id="years">
+            <span id="number">12</span>
+            <span id="years-on-market">лет на рынке<br>сварочного оборудования</span>
+        </span>
+        <span id="request-call">
+            <a class="jqModal" href="">Заказать звонок</a>
+        </span>
+        <span id="phone">
+            <span class="black">(8352)</span>
+            <span class="orange">64&nbsp;06&nbsp;41</span>
+        </span>
+</div>
+<br>
+<!-- Конец блока СварЭкс 12 лет на рынке ... -->
+
+
+<!-- Начало блока Продажа сварочного оборудования, форма "отправить заявку" ...  -->
+<div id="second-block">
+
+    <span id="first-slogan" class="orange_bg_slogan">ПРОДАЖА СВАРОЧНОГО ОБОРУДОВАНИЯ</span><br>
+    <span id="second-slogan" class="orange_bg_slogan">В ЧУВАШИИ И МАРИЙ-ЭЛ</span><br>
+    <span id="korotko-o-nas">Коротко о нас</span><br>
+    <span class="korotko-o-nas-text">гарантия<br>1 год</span><br>
+    <span class="korotko-o-nas-text">всегда<br>в наличии</span><br>
+    <span class="korotko-o-nas-text">европейские<br>бренды</span>
+
+    <form class="first-form" action="">
+        <span class="ostavte_zayavku">ОСТАВЬТЕ ЗАЯВКУ</span><br>
+        <span class="i_poluchite_otvet">и получите прайс-лист</span><br>
+        <span class="i_poluchite_otvet">в течение 1 часа</span><br><br>
+        <input type="text" placeholder="Введите имя"><br>
+        <input class="input-phone" type="text" placeholder="Введите телефон"><br>
+        <input type="submit" value="Оставить заявку"><br>
+            <span class="garantiruem">
+                Гарантируем что ваши данные<br>не будут переданы 3-м лицам
+                или<br> использоваться в СПАМ рассылках.
+            </span>
+    </form>
+
+
+    <form id="modal" class="first-form jqmWindow" action="">
+        <span class="ostavte_zayavku">ОСТАВЬТЕ ЗАЯВКУ</span><br>
+        <span class="i_poluchite_otvet">и получите прайс-лист</span><br>
+        <span class="i_poluchite_otvet">в течение 1 часа</span><br><br>
+        <input type="text" placeholder="Введите имя"><br>
+        <input class="input-phone" type="text" placeholder="Введите телефон"><br>
+        <input type="submit" value="Оставить заявку"><br>
+            <span class="garantiruem">
+                Гарантируем что ваши данные<br>не будут переданы 3-м лицам
+                или<br> использоваться в СПАМ рассылках.
+            </span>
+    </form>
+
+</div>
+<!-- Конец блока Продажа сварочного оборудования, форма "отправить заявку"... -->
+
+
+<!-- Начало блока У нас широкий ассортимент сварочного оборудования ...  -->
+<div id="u-nas-shirokij-assortiment">
+    <span id="u-nas-shirokij-assortiment-text" class="big-black">У НАС ШИРОКИЙ АССОРТИМЕНТ</span><br>
+    <span id="u-nas-shirokij-assortiment-text-2" class="big-orange">СВАРОЧНОГО ОБОРУДОВАНИЯ</span><br>
+
+
+    <!-- Начало блока Элементы с изображениями и подписью -->
+    <ul class="u-nas-shirokij-assortiment-elements">
+        <li>
+            <img src="img/invertor-1.jpg" alt="">
+            <span>Сварочные<br>инверторы ММА</span>
+        </li>
+        <li>
+            <img src="img/invertor-2.jpg" alt=""><br>
+            <span>Сварочные<br>полуавтоматы МIG</span>
+        </li>
+        <li>
+            <img src="img/invertor-3.jpg" alt=""><br>
+            <span>Аппараты для<br>аргонодуговой сварки TIG</span>
+        </li>
+        <br>
+        <li>
+            <img src="img/invertor-4.jpg" alt=""><br>
+            <span>Автономные<br>сварочные агрегаты</span>
+        </li>
+        <li>
+            <img src="img/invertor-5.jpg" alt=""><br>
+            <span>Аппарат для воздушно-<br>пламенной резки CUT</span>
+        </li>
+        <li>
+            <img src="img/invertor-6.jpg" alt=""><br>
+            <span>Оборудование для<br>сварки трубопроводов</span>
+        </li>
+    </ul>
+    <!-- Конец блока Элементы с изображениями и подписью -->
+
+</div>
+<!-- Конец блока У нас широкий ассортимент сварочного оборудования ...  -->
+
+<!-- Начало блока Только надёжные бренды ...  -->
+<div id="tolko-nadejnye-brendy">
+    <span id="tolko-nadejnye-brendy-text-1" class="big-black">ТОЛЬКО</span>
+    <span id="tolko-nadejnye-brendy-text-2" class="big-orange">НАДЕЖНЫЕ БРЕНДЫ</span><br>
+    <img id="brendy" src="img/brendy.jpg" alt="img/brendy.jpg">
+</div>
+<!-- Конец блока Только надёжные бренды ...  -->
+
+<!-- Начало блока Цены на популярные товары ...  -->
+<div id="ceny-na-popularnye-tovary">
+
+    <span id="ceny-na-popularnye-tovary-text-1" class="big-black">ЦЕНЫ НА</span>
+    <span id="ceny-na-popularnye-tovary-text-2" class="big-orange">ПОПУЛЯРНЫЕ ТОВАРЫ</span><br>
+
+    <!-- Начало блока Элементы с ценниками -->
+    <div id="ceny-columns">
+        <!-- Начало блока Первая колонка -->
+        <ul class="column-1">
+            <li>
+                <h1 class="big-black">TECHICA TT 250 MIG</h1><br>
+                    <span class="ceny-columns-opisanie">Бытовой сварочный<br>полуавтомат инверторного<br>
+                    типа для электродуговой сварки</span><br>
+                <img class="cennik" src="img/24500.jpg" alt="">
+            </li>
+            <br>
+            <li class="column-1-levee">
+                <h1 class="big-black">РЕСАНТА САИ-220ПН</h1><br>
+                    <span class="ceny-columns-opisanie">Сварочный аппарат<br>инверторный для<br>
+                        ручной дуговой сварки</span><br>
+                <img class="cennik cennik-2" src="img/6680.jpg" alt="">
+            </li>
+            <br>
+            <li class="column-1-levee">
+                <h1 class="big-black">TECHNICA TT-200TIG</h1><br>
+                    <span class="ceny-columns-opisanie">Сварочный аппарат<br>инверторного типа для<br>
+                        аргонодуговой<br>сварки постоянным током
+                    </span><br>
+                <img class="cennik" src="img/11600.jpg" alt="">
+            </li>
+            <br>
+            <li>
+                <h1 class="big-black">BRIMA ARC 110</h1><br>
+                    <span class="ceny-columns-opisanie">Сварочный инвертор для сварки<br>и наплавки постоянным током<br>
+                        покрытыми штучными электродами
+                    </span><br>
+                <img class="cennik cennik-2" src="img/6680.jpg" alt="">
+            </li>
+        </ul>
+        <!-- Конец блока Первая колонка -->
+
+        <!-- Начало блока Вторая колонка -->
+
+        <ul class="column-2">
+            <li>
+                <h1 class="big-black">TECHICA TT 220 MMA</h1><br>
+                    <span class="ceny-columns-opisanie">Сварочный аппарат<br>инверторного типа для ручной<br>
+                        дуговой сварки постоянным током
+                    </span><br>
+                <img class="cennik" src="img/9550.jpg" alt="">
+            </li>
+            <br>
+            <li>
+                <span id="cenniki-bg"></span>
+            </li>
+            <br>
+            <li>
+                <h1 class="big-black">TECHICA TT 160 MMA</h1><br>
+                    <span class="ceny-columns-opisanie">Сварочный аппарат<br>инверторного типа для ручной<br>
+                        дуговой сварки постоянным током
+                    </span><br>
+                <img class="cennik" src="img/7600.jpg" alt="">
+            </li>
+        </ul>
+        <!-- Конец блока Вторая колонка -->
+
+        <!-- Начало блока Третья колонка -->
+        <ul class="column-3">
+            <li>
+                <h1 class="big-black">BRIMA BEST MIG/MMA 325</h1><br>
+                    <span class="ceny-columns-opisanie">Промышленный сварочный<br>полуавтомат инверторного<br>
+                    типа для дуговой сварки</span><br>
+                <img class="cennik" src="img/49770.jpg" alt="">
+            </li>
+            <br>
+            <li class="column-3-pravee">
+                <h1 class="big-black">TECHNICA TT 315 TIG AC/DC</h1><br>
+                    <span class="ceny-columns-opisanie">Сварочный аппарат инверторного<br> типа для
+                        аргонодуговой сварки<br> постоянным и переменным током</span><br>
+                <img class="cennik cennik-2" src="img/42650.jpg" alt="">
+            </li>
+            <br>
+            <li class="column-3-pravee">
+                <h1 class="big-black">MARS MIG-2000</h1><br>
+                    <span class="ceny-columns-opisanie">Профессиональный сварочный<br> полуавтомат MIG инверторного <br>
+                          типа для электродуговой сварки
+                    </span><br>
+                <img class="cennik" src="img/22000.jpg" alt="">
+            </li>
+            <br>
+            <li>
+                <h1 class="big-black">INVERTEC V205-S</h1><br>
+                    <span class="ceny-columns-opisanie">Промышленный сварочный<br>
+                        инвертор TIG и ММА для дуговой<br>
+                        и аргонодуговой сварки
+                    </span><br>
+                <img class="cennik cennik-2" src="img/65640.jpg" alt="">
+            </li>
+        </ul>
+
+        <!-- Конец блока Третья колонка -->
+
+
+        <div class="column-2"></div>
+        <div class="column-3"></div>
+    </div>
+    <!-- Конец блока Элементы с ценниками -->
+
+</div>
+<!-- Конец блока Цены на популярные товары ...  -->
+
+<!-- Начало блока Не нашли нужный сварочный аппарат ...  -->
+
+<div id="ne-nashli-nujnyi" class="medium-white">
+    <span id="ne-nashli-nujnyi-left">Не нашли нужный<br>сварочный аппарат?</span>
+    <input type="submit" id="ostavte-zayavku-button" value="Оставьте заявку">
+    <span id="ne-nashli-nujnyi-right" class="medium-white">Вышлем полный список<br>сварочного оборудования</span>
+
+
+</div>
+<!-- Конец блока Не нашли нужный сварочный аппарат ...  -->
+
+
+<div id="info"></div>
+
+
+</div>
+
+</body>
+</html>
