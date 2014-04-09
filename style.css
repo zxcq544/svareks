@@ -312,6 +312,20 @@ span {
     color: #89878b;
 }
 
+/* Стиль для модального окна */
+
+.jqmWindow {
+    display: none;
+    position: fixed;
+    margin: 0;
+    top: 26%;
+    left: 39%;
+}
+
+.jqmOverlay {
+    background-color: #000;
+}
+
 /*--------------------------------------------------------------------------------- /
    [5] У НАС ШИРОКИЙ АССОРТИМЕНТ СВАРОЧНОГО ОБОРУДОВАНИЯ
 /--------------------------------------------------------------------------------- */
@@ -535,23 +549,77 @@ span {
     box-shadow: 0 0 #bc6804;
 }
 
-/* jqModal base Styling courtesy of;
-  Brice Burgess <bhb@iceburg.net> */
+/*--------------------------------------------------------------------------------- /
+   [9] Бесплатный тест сварочного оборудования
+/--------------------------------------------------------------------------------- */
 
-/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
-  the Window's z-index value will be set to 3000 by default (in jqModal.js). You
-  can change this value by either;
-    a) supplying one via CSS
-    b) passing the "zIndex" parameter. E.g.  (window).jqm({zIndex: 500}); */
-
-.jqmWindow {
-    display: none;
-    position: fixed;
-    margin: 0;
-    top: 26%;
-    left: 39%;
+#besplatnyi-test-img {
+    width: 466px;
+    height: 248px;
 }
 
-.jqmOverlay {
-    background-color: #000;
+#besplatnyi-test-svarochnogo-oborudovania {
+    display: block;
+    background: #d9e24a url(img/svarshik.png) no-repeat;
+    background-size: 47.1%;
+    height: 248px;
+}
+
+#besplatnyi-test-svarochnogo-oborudovania-text {
+    vertical-align: top;
+    margin-top: 39px;
+    margin-left: 459px;
+}
+
+#besplatnyi-test-text1 {
+    font-family: pf_agora_sans_problack;
+    font-size: 37px;
+}
+
+#besplatnyi-test-text2 {
+    font-family: open_sansregular;
+    font-size: 27px;
+}
+
+#besplatnyi-test-text3 {
+    font-family: open_sansregular;
+    font-size: 16px;
+    margin-top: 23px;
+    line-height: 20px;
+}
+
+#zapisatsa-na-test {
+    font-family: open_sansbold;
+    background-color: #cbd43e;
+    text-align: center;
+    line-height: 16px;
+    font-size: 17px;
+    color: white;
+    vertical-align: top;
+    margin: 26px 0 0 24px;
+    border: 1px white solid;
+    width: 150px;
+    height: 76px;
+    border-radius: 3px;
+}
+#zapisatsa-na-test:hover{
+    cursor: pointer;
+    background-color: #dce54f;
+}
+
+#zapisatsa-na-test:active{
+    cursor: pointer;
+    background-color: #bab32d;
+}
+
+
+#zapisatsa-na-test span {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.helper {
+    vertical-align: middle;
+    height: 100%;
+    width: 0px;
 }
