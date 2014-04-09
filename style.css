@@ -127,11 +127,13 @@ span {
 
 .big-black {
     font-family: pf_agora_sans_problack;
+    font-size: 37px;
 }
 
 .big-orange {
     font-family: open_sansregular;
     color: #ff8a00;
+    font-size: 37px;
 }
 
 .medium-white {
@@ -602,16 +604,16 @@ span {
     height: 76px;
     border-radius: 3px;
 }
-#zapisatsa-na-test:hover{
+
+#zapisatsa-na-test:hover {
     cursor: pointer;
     background-color: #dce54f;
 }
 
-#zapisatsa-na-test:active{
+#zapisatsa-na-test:active {
     cursor: pointer;
     background-color: #bab32d;
 }
-
 
 #zapisatsa-na-test span {
     vertical-align: middle;
@@ -622,4 +624,50 @@ span {
     vertical-align: middle;
     height: 100%;
     width: 0px;
+}
+
+/*--------------------------------------------------------------------------------- /
+   [10] Мы решим вссе ваши проблемы
+/--------------------------------------------------------------------------------- */
+#my-reshim-vse-vashi-problemy-text1 {
+    margin: 46px 0 0 182px;
+}
+
+#my-reshim-vse-vashi-problemy ul {
+    font-family: open_sansbold;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+#my-reshim-vse-vashi-problemy-left-column {
+    margin: 37px 0 0 145px;
+}
+
+#my-reshim-vse-vashi-problemy-left-column li {
+    vertical-align: middle;
+    margin: 0 0 42px 11px;
+}
+
+.list-img {
+    position: relative;
+    top: -3px;
+    width: 41px;
+    height: 41px;
+}
+
+#my-reshim-vse-vashi-problemy-right-column {
+    color: #E88A1A;
+    vertical-align: top;
+    margin: 30px 0 0 30px;
+}
+
+#my-reshim-vse-vashi-problemy-right-column li {
+    vertical-align: middle;
+    margin: 0 0 34px 11px;
+}
+
+.list-img-right {
+    width: 41px;
+    height: 41px;
 }
