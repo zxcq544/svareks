@@ -629,8 +629,14 @@ span {
 /*--------------------------------------------------------------------------------- /
    [10] Мы решим вссе ваши проблемы
 /--------------------------------------------------------------------------------- */
+
+#my-reshim-vse-vashi-problemy {
+    height: 454px;
+}
+
 #my-reshim-vse-vashi-problemy-text1 {
     margin: 46px 0 0 182px;
+
 }
 
 #my-reshim-vse-vashi-problemy ul {
@@ -671,3 +677,53 @@ span {
     width: 41px;
     height: 41px;
 }
+
+/*--------------------------------------------------------------------------------- /
+   [11] Аттестация НАКС
+/--------------------------------------------------------------------------------- */
+
+#attestacia-naks {
+    background: #3b3840 url(img/attestacia.png) no-repeat right;
+    background-size: 47%;
+    display: block;
+    color: white;
+    font-family: open_sansbold;
+    height: 308px;
+}
+
+#attestacia-naks-text1 {
+    font-size: 40px;
+    margin: 30px 0 0 146px;
+}
+
+#attestacia-naks ul {
+
+    margin: 19px 0 0 0;
+}
+
+#attestacia-naks li {
+    display: list-item;
+    list-style: disc;
+    font-size: 16px;
+    margin: 0 0 -7px 159px;
+}
+
+#attestacia-naks button {
+    font-family: open_sansbold;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 26px 0 4px 146px;
+    width: 275px;
+    color: white;
+    background-color: #ff8a00;
+    border: 1px solid #ff8a00;
+    box-shadow: 0 5px #bc6804;
+    height: 45px;
+}
+
+#attestacia-naks button:active {
+    position: relative;
+    top: 3px;
+    box-shadow: 0 2px #bc6804;
+}
+
