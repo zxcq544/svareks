@@ -280,7 +280,7 @@ span {
     margin: 6px 0 4px 0;
     width: 189px;
     height: 30px;
-	font-family: open_sansregular;
+    font-family: open_sansregular;
 
 }
 
@@ -632,7 +632,7 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #my-reshim-vse-vashi-problemy {
-    height: 454px;
+    height: 464px;
 }
 
 #my-reshim-vse-vashi-problemy-text1 {
@@ -706,14 +706,14 @@ span {
     display: list-item;
     list-style: disc;
     font-size: 16px;
-    margin: 0 0 -7px 159px;
+    margin: 0 0 9px 159px;
 }
 
 #attestacia-naks button {
     font-family: open_sansbold;
     font-size: 20px;
     border-radius: 3px;
-    margin: 26px 0 4px 146px;
+    margin: 18px 0 4px 146px;
     width: 275px;
     color: white;
     background-color: #ff8a00;
@@ -728,3 +728,54 @@ span {
     box-shadow: 0 2px #bc6804;
 }
 
+/*--------------------------------------------------------------------------------- /
+   [12] 6 причин выбрать нас
+/--------------------------------------------------------------------------------- */
+
+#prichin{
+    height: 290px;
+}
+
+#prichin-text1 {
+    margin: 45px 0 24px 276px;
+}
+
+#oborudovanie-vsegda-v-nalichii {
+    font-family: open_sansregular;
+    font-size: 14px;
+}
+
+#oborudovanie-vsegda-v-nalichii img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+#oborudovanie-vsegda-v-nalichii ul {
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+    left: 146px;
+    margin-right: 28px;
+}
+
+#oborudovanie-vsegda-v-nalichii li {
+    height: 69px;
+    display: block;
+    vertical-align: top;
+    text-align: left;
+    line-height: 16px;
+
+}
+
+#oborudovanie-vsegda-v-nalichii span {
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
