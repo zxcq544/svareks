@@ -635,49 +635,52 @@ span {
     height: 464px;
 }
 
-#my-reshim-vse-vashi-problemy-text1 {
+#my-reshim-vse-vashi-problemy-text {
+    vertical-align: top;
     margin: 46px 0 0 182px;
+}
 
+#my-reshim-vse-vashi-problemy-list {
+    margin: 13px 0 0 148px;
 }
 
 #my-reshim-vse-vashi-problemy ul {
     font-family: open_sansbold;
     font-size: 14px;
     line-height: 16px;
-
-}
-
-#my-reshim-vse-vashi-problemy-left-column {
-    margin: 37px 0 0 145px;
-}
-
-#my-reshim-vse-vashi-problemy-left-column li {
-    vertical-align: middle;
-    margin: 0 0 42px 11px;
-}
-
-.list-img {
-    position: relative;
-    top: -3px;
-    width: 41px;
-    height: 41px;
-}
-
-#my-reshim-vse-vashi-problemy-right-column {
-    color: #E88A1A;
+    display: inline-block;
     vertical-align: top;
-    margin: 30px 0 0 30px;
 }
 
-#my-reshim-vse-vashi-problemy-right-column li {
+.orange-left{
+    color: #E88A1A;
+}
+
+#my-reshim-vse-vashi-problemy li {
+    vertical-align: top;
+    display: block;
+    height: 80px;
+    margin-right: 30px;
+}
+
+#my-reshim-vse-vashi-problemy li > span {
+    display: inline-block;
     vertical-align: middle;
-    margin: 0 0 34px 11px;
+    line-height: 17px;
 }
 
-.list-img-right {
+#my-reshim-vse-vashi-problemy img {
     width: 41px;
     height: 41px;
+    vertical-align: middle;
+    margin-right: 11px;
 }
+
+.helper {
+    height: 100%;
+    width: 0;
+}
+
 
 /*--------------------------------------------------------------------------------- /
    [11] Аттестация НАКС
@@ -732,7 +735,7 @@ span {
    [12] 6 причин выбрать нас
 /--------------------------------------------------------------------------------- */
 
-#prichin{
+#prichin {
     height: 290px;
 }
 
@@ -749,6 +752,7 @@ span {
     width: 45px;
     height: 45px;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 #oborudovanie-vsegda-v-nalichii ul {
