@@ -339,18 +339,20 @@ span {
 }
 
 #u-nas-shirokij-assortiment-text-2 {
-    margin: 5px 0 0 246px;
+    margin: 5px 0 36px 246px;
     font-size: 34px;
 }
 
 .u-nas-shirokij-assortiment-elements {
-    margin: 36px 0 0 145px;
+    display: block;
+    margin: 0 0 0 145px;
 }
 
 .u-nas-shirokij-assortiment-elements li {
     width: 196px;
     margin: 0 56px 16px 0;
     text-align: center;
+    display: inline-block;
 }
 
 .u-nas-shirokij-assortiment-elements img {
@@ -423,6 +425,7 @@ span {
 }
 
 #ceny-columns li {
+    display: block;
     text-align: right;
 }
 
@@ -467,7 +470,6 @@ span {
 .column-2 {
     position: relative;
     top: -23px;
-    right: 400px;
     height: 0px;
     z-index: 0;
 }
@@ -482,7 +484,7 @@ span {
     background-size: 100%;
     width: 394px;
     height: 313px;
-    margin-right: -89px;
+    margin-right: 9px;
     margin-top: 35px;
     margin-bottom: -46px;
     z-index: -1;
