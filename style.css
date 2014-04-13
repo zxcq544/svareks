@@ -501,7 +501,6 @@ span {
 
 }
 
-
 .column-3-pravee {
     position: relative;
     left: 37px;
@@ -515,7 +514,6 @@ span {
 .column-3 li, .column-3 span {
     text-align: left !important;
 }
-
 
 /*--------------------------------------------------------------------------------- /
    [8] Не нашли нужный сварочный аппарат ? Оставьте заявку
@@ -658,7 +656,7 @@ span {
     vertical-align: top;
 }
 
-.orange-left{
+.orange-left {
     color: #E88A1A;
 }
 
@@ -686,7 +684,6 @@ span {
     height: 100%;
     width: 0;
 }
-
 
 /*--------------------------------------------------------------------------------- /
    [11] Аттестация НАКС
@@ -788,4 +785,112 @@ span {
 
 .block {
     display: block;
+}
+
+/*--------------------------------------------------------------------------------- /
+   [13] наши клиенты о нас
+/--------------------------------------------------------------------------------- */
+#nashi-clienty-o-nas {
+
+    background: url("img/orange-svarshik.png") no-repeat;
+    background-size: 100%;
+    height: 487px;
+}
+
+#nashi-clienty-o-nas-text {
+    margin: 30px 0 0 275px;
+    color: white;
+}
+
+.big-white {
+    font-family: pf_agora_sans_problack;
+    font-size: 38px;
+}
+
+.sans-white {
+    font-family: open_sanslight;
+    font-size: 37px;
+}
+
+#nashi-clienty-o-nas-list {
+    position: relative;
+    top: 24px;
+    left: 140px;
+
+}
+
+#nashi-clienty-o-nas-list li {
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+#nashi-clienty-o-nas-list ul {
+    margin-right: 21px;
+}
+
+#nashi-clienty-o-nas-list span {
+    opacity: 1;
+    font-family: open_sansregular;
+    font-size: 10px;
+    position: relative;
+    line-height: 14px;
+    top: 10px;
+    left: 21px;
+}
+
+.list-bg {
+    background-color: white;
+    opacity: 0.79;
+    width: 349px;
+    height: 143px;
+}
+
+.list-bg:after {
+    content: "\00a0";
+    background-color: white;
+    z-index: -1;
+    display: block;
+    height: 26px;
+    left: 37px;
+    top: -5px;
+    position: relative;
+    transform: rotate(-45deg) skew(-45deg);
+    -moz-transform: rotate(-45deg) skew(-45deg);
+    -ms-transform: rotate(-45deg) skew(-45deg);
+    -o-transform: rotate(-45deg) skew(-45deg);
+    -webkit-transform: rotate(-45deg) skew(-45deg);
+    width: 22px;
+}
+
+.medium-black {
+    font-family: open_sansbold;
+    font-size: 17px;
+
+}
+
+.left-quote {
+    font-size: 31px;
+    font-family: open_sansregular;
+    vertical-align: top;
+    position: relative;
+    left: 18px;
+    top: -2px;
+}
+
+.h1-in-list {
+    margin: 13px 0 0 18px;
+    opacity: 1;
+}
+
+.note {
+    display: block !important;
+    font-family: open_sansbold !important;
+    font-style: italic;
+    font-size: 10px !important;
+    position: relative !important;
+    top: 12px !important;
+    left: 23px !important;
+    height: 46px;
+    color: white;
 }
