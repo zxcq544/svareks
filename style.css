@@ -790,6 +790,7 @@ span {
 /*--------------------------------------------------------------------------------- /
    [13] наши клиенты о нас
 /--------------------------------------------------------------------------------- */
+
 #nashi-clienty-o-nas {
 
     background: url("img/orange-svarshik.png") no-repeat;
@@ -894,3 +895,47 @@ span {
     height: 46px;
     color: white;
 }
+
+/*--------------------------------------------------------------------------------- /
+   [14] как мы работеам
+/--------------------------------------------------------------------------------- */
+
+#kak-my-rabotaem-text {
+    margin: 45px 0 0 331px;
+}
+
+#kak-my-rabotaem {
+    height: 320px;
+    display: block;
+}
+
+#rabot-icons {
+    margin: 24px 0px 0px 140px;
+}
+
+#rabot-icons div {
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+#rabot-icons img {
+    width: 73%;
+    height: 73%;
+}
+
+#rabot-icons h1 {
+    font-family: open_sansbold;
+    position: relative;
+    font-size: 12px;
+    top: 1px;
+    line-height: 15px;
+}
+
+#rabot-icons span {
+    font-family: open_sansregular;
+    font-size: 10px;
+    position: relative;
+    top: 4px;
+    line-height: 12px;
+}
+
