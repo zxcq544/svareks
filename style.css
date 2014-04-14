@@ -939,3 +939,25 @@ span {
     line-height: 12px;
 }
 
+/*--------------------------------------------------------------------------------- /
+   [14] География заказов
+/--------------------------------------------------------------------------------- */
+
+#geografia-zakazov {
+    display: block;
+    height: 446px;
+}
+
+#geografia-zakazov-text {
+    text-align: center;
+    vertical-align: top;
+    margin: 24px 0 0 285px;
+}
+
+#geografia-zakazov img {
+    width: 78%;
+    position: relative;
+    top: -90px;
+    left: 99px;
+    z-index: -1;
+}
