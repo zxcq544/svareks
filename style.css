@@ -961,3 +961,34 @@ span {
     left: 99px;
     z-index: -1;
 }
+
+/*--------------------------------------------------------------------------------- /
+   [15] Ещё мы можем предложить
+/--------------------------------------------------------------------------------- */
+
+#eshe-text {
+    margin: 8px 0 0 209px;
+    vertical-align: top;
+
+}
+
+#eshe-list {
+    margin: 35px 0px 0px 163px;
+}
+
+#eshe-list div {
+    text-align: center;
+    vertical-align: top;
+    margin-right: 35px;
+}
+
+#eshe-list span {
+    text-align: center;
+    font-family: open_sansregular;
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    line-height: 15px;
+}
+
+
