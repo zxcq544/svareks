@@ -152,24 +152,24 @@ span {
 
 /* title СварЭкс */
 
-#title {
+.title {
     font-size: 34px;
     font-family: "pf_agora_slab_problack";
 }
 
 /* 12 лет на рынке сварочного оборудования */
 
-#years {
+.years {
     margin-left: 28px;
     color: #6e6e6e;
     font-family: open_sanslight;
 }
 
-#number {
+.number {
     font-size: 27px;
 }
 
-#years-on-market {
+.years-on-market {
     font-size: 12px;
     margin-left: 4px;
 }
@@ -966,6 +966,11 @@ span {
    [15] Ещё мы можем предложить
 /--------------------------------------------------------------------------------- */
 
+#eshe {
+    height: 262px;
+    display: block;
+}
+
 #eshe-text {
     margin: 8px 0 0 209px;
     vertical-align: top;
@@ -991,4 +996,98 @@ span {
     line-height: 15px;
 }
 
+/*--------------------------------------------------------------------------------- /
+   [16] Где мы находимся
+/--------------------------------------------------------------------------------- */
 
+#gde-my-nahodimsya-text {
+    margin: 25px 0px 32px 313px;
+}
+
+.karta_text {
+    margin: 16px 0px 0px 148px;
+    vertical-align: top;
+}
+
+.title_down {
+    font-size: 30px;
+    font-family: "pf_agora_slab_problack";
+}
+
+.ekspert {
+    font-size: 10px;
+}
+
+.sans-regular {
+    font-family: open_sansregular;
+}
+
+.sans-bold {
+    font-family: open_sansbold;
+}
+
+.spravoch {
+    position: relative;
+    left: 41px;
+
+}
+
+.spravoch_text {
+    font-size: 13px;
+    color: #abaaad;
+}
+
+.phone_spravoch {
+    font-size: 23px;
+}
+
+.ostavte_zayavku_sprav {
+    font-family: open_sansbold;
+    font-size: 19px;
+}
+
+.i_poluchite_otvet_sprav {
+    font-family: open_sansregular;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.last-form {
+    border-radius: 14px;
+    background-color: #3b3840;
+    color: white;
+    text-align: center;
+    padding: 23px 31px 0 32px;
+    font-family: open_sansregular;
+    font-size: 14px;
+}
+
+.last-form input {
+    text-align: center;
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 6px 0 4px 0;
+    width: 189px;
+    height: 30px;
+    font-family: open_sansregular;
+
+}
+
+.last-form [type=submit] {
+    color: white;
+    background-color: #ff8a00;
+    border: 1px solid #ff8a00;
+    box-shadow: 0 5px #3b1e00;
+    height: 32px;
+}
+
+.last-form [type=submit]:active {
+    color: white;
+    background-color: #ffd01c;
+    border: 1px solid #ffd01c;
+    box-shadow: 0 0 #3b1e00;
+    position: relative;
+    top: 5px;
+    padding: 8px 28px;
+}
