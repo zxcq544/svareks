@@ -292,14 +292,22 @@ span {
     height: 32px;
 }
 
-.first-form [type=submit]:active {
+.first-form [type=submit]:hover {
     color: white;
-    background-color: #ffd01c;
-    border: 1px solid #ffd01c;
+    background-color: #ff9914;
+    border: 1px solid #ff9914;
+    box-shadow: 0 0 #4c1f03;
+
+}
+
+.first-form [type=submit]:active {
+    /*color: white;*/
+    background-color: #ef7a00;
+    border: 1px solid #ef7a00;
     box-shadow: 0 0 #3b1e00;
     position: relative;
     top: 5px;
-    padding: 8px 28px;
+    /*padding: 8px 28px;*/
 }
 
 .invisible {
@@ -426,6 +434,7 @@ span {
 
 #ceny-columns ul {
     display: inline-block;
+    vertical-align: top;
 }
 
 #ceny-columns li {
@@ -447,7 +456,7 @@ span {
 .column-1 {
     position: relative;
     text-align: right;
-    top: -22px;
+    top: 23px;
     left: 62px;
     z-index: 1;
 }
@@ -466,6 +475,51 @@ span {
     height: 22px;
     margin-top: 6px;
     margin-right: 2px;
+}
+
+.cennik-img {
+    width: 107px;
+    height: 22px;
+}
+
+.cennik-div {
+    margin: 6px 6px 0 0;
+}
+
+.cennik-span {
+    font-family: open_sansbold;
+    font-size: 17px;
+    position: relative;
+    left: 106px;
+    top: -5px;
+    color: white;
+}
+
+.cennik-img-short {
+    width: 96px;
+    height: 22px;
+}
+
+.cennik-span-short {
+    left: 95px;
+}
+
+.cennik-span-center {
+    left: 92px;
+}
+
+.cennik-div-center {
+    position: relative;
+    left: -31px;
+}
+
+.cennik-div-right {
+    position: relative;
+    left: -77px;
+}
+
+.cennik-span-right {
+    left: 83px;
 }
 
 .cennik-2 {
@@ -495,8 +549,8 @@ span {
 
 .column-3 {
     position: relative;
-    top: -23px;
-    left: -70px;
+    top: 24px;
+    left: -74px;
     z-index: 0;
 
 }
@@ -1082,12 +1136,23 @@ span {
     height: 32px;
 }
 
+.last-form [type=submit]:hover {
+    color: white;
+    background-color: #ff9914;
+    border: 1px solid #ff9914;
+    box-shadow: 0 0 #4c1f03;
+}
+
 .last-form [type=submit]:active {
     color: white;
-    background-color: #ffd01c;
-    border: 1px solid #ffd01c;
+    background-color: #ef7a00;
+    border: 1px solid #ef7a00;
     box-shadow: 0 0 #3b1e00;
     position: relative;
     top: 5px;
     padding: 8px 28px;
 }
+
+
+
+
