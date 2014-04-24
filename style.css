@@ -26,6 +26,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
+html {
+    font-size: 1px;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, menu, nav, section {
     display: block;
@@ -100,7 +104,7 @@ table {
     font-style: normal;
 }
 
-.wrapper {
+#wrapper {
     display: block;
     position: relative;
     margin: 0 auto;
@@ -114,12 +118,12 @@ table {
 }
 
 div, form, ul, li, h1, h2 {
-    /*border: 1px solid green;*/
+    /*border: 1rem solid green;*/
     display: inline-block;
 }
 
 span {
-    /*border: 1px solid blue;*/
+    /*border: 1rem solid blue;*/
     display: inline-block;
     text-align: left;
 
@@ -127,19 +131,19 @@ span {
 
 .big-black {
     font-family: pf_agora_sans_problack;
-    font-size: 37px;
+    font-size: 37rem;
 }
 
 .big-orange {
     font-family: open_sansregular;
     color: #ff8a00;
-    font-size: 37px;
+    font-size: 37rem;
 }
 
 .medium-white {
     font-family: pf_agora_sans_problack;
     color: white;
-    font-size: 18px;
+    font-size: 18rem;
 }
 
 /*--------------------------------------------------------------------------------- /
@@ -147,40 +151,40 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #first-line {
-    margin: 23px 0 23px 142px;
+    margin: 23rem 0 23rem 142rem;
 }
 
 /* title СварЭкс */
 
 .title {
-    font-size: 34px;
+    font-size: 34rem;
     font-family: "pf_agora_slab_problack";
 }
 
 /* 12 лет на рынке сварочного оборудования */
 
 .years {
-    margin-left: 28px;
+    margin-left: 31rem;
     color: #6e6e6e;
     font-family: open_sanslight;
 }
 
 .number {
-    font-size: 27px;
+    font-size: 27rem;
 }
 
 .years-on-market {
-    font-size: 12px;
-    margin-left: 4px;
+    font-size: 12rem;
+    margin-left: 7rem;
 }
 
 /* Заказать звонок */
 #request-call {
     position: relative;
-    margin-left: 60px;
+    margin-left: 64rem;
     font-family: sans-serif;
-    font-size: 11px;
-    top: -6px;
+    font-size: 11rem;
+    top: -6rem;
 }
 
 #request-call > a {
@@ -199,10 +203,10 @@ span {
 
 #phone {
     font-family: open_sansbold;
-    font-size: 23px;
+    font-size: 23rem;
     position: relative;
-    top: -2px;
-    margin-left: 20px;
+    top: -2rem;
+    margin-left: 20rem;
 }
 
 /*--------------------------------------------------------------------------------- /
@@ -219,34 +223,34 @@ span {
 /*Оранжевый фон для первых двух фраз */
 .orange_bg_slogan {
     font-family: pf_agora_sans_problack;
-    font-size: 30px;
+    font-size: 30rem;
     color: white;
     background-color: #e88a1a;
 }
 
 /*Продажа сварочного оборудования */
 #first-slogan {
-    margin: 22px 0 0 132px;
-    padding: 4px 33px;
+    margin: 22rem 0 0 132rem;
+    padding: 4rem 33rem;
 }
 
 /* В Чувашии и Марий-Эл */
 #second-slogan {
-    margin: 3px 0 0 262px;
-    padding: 3px 35px;
+    margin: 3rem 0 0 262rem;
+    padding: 3rem 35rem;
 }
 
 /* Коротко о нас */
 #korotko-o-nas {
     font-family: open_sansbold;
-    margin: 77px 0 0 146px;
-    font-size: 25px;
+    margin: 77rem 0 0 146rem;
+    font-size: 25rem;
 }
 
 .korotko-o-nas-text {
     font-family: open_sansbold;
-    margin: 13px 0 12px 193px;
-    font-size: 16px;
+    margin: 13rem 0 13rem 193rem;
+    font-size: 16rem;
 }
 
 /* Форма Оставьте заявку */
@@ -255,31 +259,31 @@ span {
     border-radius: 14px;
     background-color: #3b3840;
     color: white;
-    margin: -229px 0 61px 603px;
+    margin: -231rem 0 61rem 603rem;
     text-align: center;
-    padding: 23px 31px 0 32px;
+    padding: 23rem 31rem 0 32rem;
     font-family: open_sansregular;
-    font-size: 14px;
+    font-size: 14rem;
 }
 
 .ostavte_zayavku {
     font-weight: bold;
-    font-size: 19px;
-    margin-bottom: 2px;
+    font-size: 19rem;
+    margin-bottom: 2rem;
 }
 
 .i_poluchite_otvet {
-    margin-bottom: 3px;
+    margin-bottom: 3rem;
 }
 
 .first-form input {
     text-align: center;
     border: 1px solid white;
-    font-size: 16px;
+    font-size: 16rem;
     border-radius: 5px;
-    margin: 6px 0 4px 0;
-    width: 189px;
-    height: 30px;
+    margin: 6rem 0 4rem 0;
+    width: 189rem;
+    height: 30rem;
     font-family: open_sansregular;
 
 }
@@ -288,8 +292,8 @@ span {
     color: white;
     background-color: #ff8a00;
     border: 1px solid #ff8a00;
-    box-shadow: 0 5px #3b1e00;
-    height: 32px;
+    box-shadow: 0 5rem #3b1e00;
+    height: 32rem;
 }
 
 .first-form [type=submit]:hover {
@@ -306,8 +310,8 @@ span {
     border: 1px solid #ef7a00;
     box-shadow: 0 0 #3b1e00;
     position: relative;
-    top: 5px;
-    /*padding: 8px 28px;*/
+    top: 5rem;
+    /*padding: 8rem 28rem;*/
 }
 
 .invisible {
@@ -316,10 +320,10 @@ span {
 }
 
 .garantiruem {
-    margin: 15px 0 18px 0;
-    line-height: 13px;
+    margin: 15rem 0 18rem 0;
+    line-height: 13rem;
     text-align: center;
-    font-size: 9px;
+    font-size: 9rem;
     color: #89878b;
 }
 
@@ -342,41 +346,43 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #u-nas-shirokij-assortiment-text {
-    margin-left: 179px;
-    font-size: 38px;
+    margin-left: 179rem;
+    font-size: 38rem;
 }
 
 #u-nas-shirokij-assortiment-text-2 {
-    margin: 5px 0 36px 246px;
-    font-size: 34px;
+    margin: 5rem 0 36rem 246rem;
+    font-size: 34rem;
 }
 
 .u-nas-shirokij-assortiment-elements {
     display: block;
-    margin: 0 0 0 145px;
+    margin: 0 0 0 145rem;
 }
 
 .u-nas-shirokij-assortiment-elements li {
-    width: 196px;
-    margin: 0 56px 16px 0;
+    width: 196rem;
+    height: 185rem;
+    margin: 0 59rem 0rem 0;
     text-align: center;
     display: inline-block;
+
 }
 
 .u-nas-shirokij-assortiment-elements img {
-    width: 151px;
-    height: 118px;
-    padding: 6px 22px 26px 23px;
+    width: 151rem;
+    height: 118rem;
+    padding: 6rem 22rem 26rem 23rem;
     border: 1px solid #333333;
 }
 
 .u-nas-shirokij-assortiment-elements span {
-    display: block;
-    width: 184px;
+    width: 184rem;
     font-family: open_sansregular;
-    margin: -24px 0 0 7px;
-    font-size: 12px;
-    padding: 7px 0;
+    position: relative;
+    top: -21rem;
+    font-size: 12rem;
+    padding: 7rem 0;
     background-color: #333333;
     color: white;
     text-align: center;
@@ -387,22 +393,22 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #tolko-nadejnye-brendy {
-    margin: 45px 0 42px 235px;
+    margin: 45rem 0 46rem 235rem;
 }
 
 #tolko-nadejnye-brendy-text-1 {
-    font-size: 37px;
+    font-size: 37rem;
 }
 
 #tolko-nadejnye-brendy-text-2 {
-    font-size: 36px;
-    margin-left: 7px;
+    font-size: 36rem;
+    margin-left: 7rem;
 }
 
 #brendy {
-    margin: 25px 0 0 -71px;
-    width: 686px;
-    height: 166px;
+    margin: 25rem 0 0 -71rem;
+    width: 686rem;
+    height: 166rem;
 }
 
 /*--------------------------------------------------------------------------------- /
@@ -413,17 +419,17 @@ span {
 
     background: url(img/bg-ceny-na-popularnye-tovary.jpg);
     width: 100%;
-    height: 605px;
+    height: 605rem;
 }
 
 #ceny-na-popularnye-tovary-text-1 {
-    font-size: 37px;
-    margin: 33px 0 26px 206px;
+    font-size: 37rem;
+    margin: 33rem 0 26rem 206rem;
 }
 
 #ceny-na-popularnye-tovary-text-2 {
-    font-size: 35px;
-    margin-left: 8px;
+    font-size: 35rem;
+    margin-left: 8rem;
 }
 
 /* Колонки с товарами */
@@ -443,92 +449,99 @@ span {
 }
 
 #ceny-columns h1 {
-    font-size: 13px;
+    font-size: 13rem;
 }
 
 .ceny-columns-opisanie {
     font-family: open_sansregular;
     text-align: right;
-    line-height: 12px;
-    font-size: 11px;
+    line-height: 12rem;
+    font-size: 11rem;
 }
 
 .column-1 {
     position: relative;
     text-align: right;
-    top: 23px;
-    left: 62px;
+    top: 24rem;
+    left: 45rem;
     z-index: 1;
 }
 
 .column-1 li {
-    margin-bottom: 27px;
+    margin-bottom: 31rem;
 }
 
 .column-1-levee {
-    left: -38px;
+    left: -38rem;
     position: relative;
 }
 
 .cennik {
-    width: 107px;
-    height: 22px;
-    margin-top: 6px;
-    margin-right: 2px;
+    width: 107rem;
+    height: 22rem;
+    margin-top: 6rem;
+    margin-right: 2rem;
 }
 
 .cennik-img {
-    width: 107px;
-    height: 22px;
+    width: 107rem;
+    height: 22rem;
 }
 
 .cennik-div {
-    margin: 6px 6px 0 0;
+    margin: 7rem 6rem 0 0;
+}
+
+.cennik-div-left {
+    position: relative;
+    left: 5rem;
 }
 
 .cennik-span {
     font-family: open_sansbold;
-    font-size: 17px;
+    font-size: 17rem;
     position: relative;
-    left: 106px;
-    top: -5px;
+    left: 106rem;
+    top: -5rem;
     color: white;
 }
 
 .cennik-img-short {
-    width: 96px;
-    height: 22px;
+    width: 96rem;
+    height: 22rem;
 }
 
 .cennik-span-short {
-    left: 95px;
+    left: 95rem;
 }
 
 .cennik-span-center {
-    left: 92px;
+    left: 88rem;
 }
 
 .cennik-div-center {
     position: relative;
-    left: -31px;
+    left: -31rem;
 }
 
 .cennik-div-right {
     position: relative;
-    left: -77px;
+    left: -77rem;
 }
 
 .cennik-span-right {
-    left: 83px;
+    left: 83rem;
 }
 
 .cennik-2 {
-    width: 95px;
+    width: 95rem;
 }
 
 .column-2 {
     position: relative;
     z-index: 0;
+    top: 2rem;
+    left: -2rem;
 }
 
 .column-2 li, .column-2 span {
@@ -539,30 +552,29 @@ span {
     position: relative;
     background: url(img/cenniki-bg.png) no-repeat;
     background-size: 100%;
-    width: 394px;
-    height: 313px;
-    margin-right: 9px;
-    margin-top: 35px;
-    margin-bottom: -46px;
+    width: 394rem;
+    height: 309rem;
+    top: 36rem;
+    left: -10rem;
     z-index: -1;
 }
 
 .column-3 {
     position: relative;
-    top: 24px;
-    left: -74px;
+    top: 24rem;
+    left: -70rem;
     z-index: 0;
 
 }
 
 .column-3-pravee {
     position: relative;
-    left: 37px;
-    height: 90px;
+    left: 37rem;
+    height: 86rem;
 }
 
 .column-3 li {
-    margin-bottom: 26px;
+    margin-bottom: 31rem;
 }
 
 .column-3 li, .column-3 span {
@@ -580,13 +592,13 @@ span {
 
 #ne-nashli-nujnyi-left {
     text-align: right;
-    margin: 19px 18px 19px 177px;
+    margin: 19rem 18rem 19rem 177rem;
 }
 
 #ne-nashli-nujnyi-right {
     text-align: left;
     position: relative;
-    left: 16px;
+    left: 16rem;
 }
 
 #ostavte-zayavku-button {
@@ -594,19 +606,19 @@ span {
     color: white;
     background: #ff8a00;
     position: relative;
-    top: -11px;
-    font-size: 17px;
-    width: 211px;
-    height: 44px;
+    top: -11rem;
+    font-size: 17rem;
+    width: 211rem;
+    height: 44rem;
     border: none;
     border-radius: 4px;
-    box-shadow: 0 3px #bc6804;
+    box-shadow: 0 3rem #bc6804;
 }
 
 #ostavte-zayavku-button:active {
     background: #ff8a00;
     position: relative;
-    top: -8px;
+    top: -8rem;
     box-shadow: 0 0 #bc6804;
 }
 
@@ -615,52 +627,52 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #besplatnyi-test-img {
-    width: 466px;
-    height: 248px;
+    width: 466rem;
+    height: 248rem;
 }
 
 #besplatnyi-test-svarochnogo-oborudovania {
     display: block;
     background: #d9e24a url(img/svarshik.png) no-repeat;
     background-size: 47.1%;
-    height: 248px;
+    height: 248rem;
 }
 
 #besplatnyi-test-svarochnogo-oborudovania-text {
     vertical-align: top;
-    margin-top: 39px;
-    margin-left: 459px;
+    margin-top: 39rem;
+    margin-left: 459rem;
 }
 
 #besplatnyi-test-text1 {
     font-family: pf_agora_sans_problack;
-    font-size: 37px;
+    font-size: 37rem;
 }
 
 #besplatnyi-test-text2 {
     font-family: open_sansregular;
-    font-size: 27px;
+    font-size: 27rem;
 }
 
 #besplatnyi-test-text3 {
     font-family: open_sansregular;
-    font-size: 16px;
-    margin-top: 23px;
-    line-height: 20px;
+    font-size: 16rem;
+    margin-top: 23rem;
+    line-height: 20rem;
 }
 
 #zapisatsa-na-test {
     font-family: open_sansbold;
     background-color: #cbd43e;
     text-align: center;
-    line-height: 16px;
-    font-size: 17px;
+    line-height: 16rem;
+    font-size: 17rem;
     color: white;
     vertical-align: top;
-    margin: 26px 0 0 24px;
+    margin: 26rem 0 0 24rem;
     border: 1px white solid;
-    width: 150px;
-    height: 76px;
+    width: 150rem;
+    height: 76rem;
     border-radius: 3px;
 }
 
@@ -682,7 +694,7 @@ span {
 .helper {
     vertical-align: middle;
     height: 100%;
-    width: 0px;
+    width: 0rem;
 }
 
 /*--------------------------------------------------------------------------------- /
@@ -690,22 +702,22 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #my-reshim-vse-vashi-problemy {
-    height: 464px;
+    height: 464rem;
 }
 
 #my-reshim-vse-vashi-problemy-text {
     vertical-align: top;
-    margin: 46px 0 0 182px;
+    margin: 46rem 0 0 182rem;
 }
 
 #my-reshim-vse-vashi-problemy-list {
-    margin: 13px 0 0 148px;
+    margin: 13rem 0 0 148rem;
 }
 
 #my-reshim-vse-vashi-problemy ul {
     font-family: open_sansbold;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 14rem;
+    line-height: 16rem;
     display: inline-block;
     vertical-align: top;
 }
@@ -717,21 +729,21 @@ span {
 #my-reshim-vse-vashi-problemy li {
     vertical-align: top;
     display: block;
-    height: 80px;
-    margin-right: 30px;
+    height: 80rem;
+    margin-right: 30rem;
 }
 
 #my-reshim-vse-vashi-problemy li > span {
     display: inline-block;
     vertical-align: middle;
-    line-height: 17px;
+    line-height: 17rem;
 }
 
 #my-reshim-vse-vashi-problemy img {
-    width: 41px;
-    height: 41px;
+    width: 41rem;
+    height: 41rem;
     vertical-align: middle;
-    margin-right: 11px;
+    margin-right: 11rem;
 }
 
 .helper {
@@ -749,43 +761,43 @@ span {
     display: block;
     color: white;
     font-family: open_sansbold;
-    height: 308px;
+    height: 308rem;
 }
 
 #attestacia-naks-text1 {
-    font-size: 40px;
-    margin: 30px 0 0 146px;
+    font-size: 40rem;
+    margin: 30rem 0 0 146rem;
 }
 
 #attestacia-naks ul {
 
-    margin: 19px 0 0 0;
+    margin: 19rem 0 0 0;
 }
 
 #attestacia-naks li {
     display: list-item;
     list-style: disc;
-    font-size: 16px;
-    margin: 0 0 9px 159px;
+    font-size: 16rem;
+    margin: 0 0 9rem 159rem;
 }
 
 #attestacia-naks button {
     font-family: open_sansbold;
-    font-size: 20px;
+    font-size: 20rem;
     border-radius: 3px;
-    margin: 18px 0 4px 146px;
-    width: 275px;
+    margin: 18rem 0 4rem 146rem;
+    width: 275rem;
     color: white;
     background-color: #ff8a00;
     border: 1px solid #ff8a00;
-    box-shadow: 0 5px #bc6804;
-    height: 45px;
+    box-shadow: 0 5rem #bc6804;
+    height: 45rem;
 }
 
 #attestacia-naks button:active {
     position: relative;
-    top: 3px;
-    box-shadow: 0 2px #bc6804;
+    top: 3rem;
+    box-shadow: 0 2rem #bc6804;
 }
 
 /*--------------------------------------------------------------------------------- /
@@ -793,22 +805,22 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #prichin {
-    height: 290px;
+    height: 290rem;
 }
 
 #prichin-text1 {
-    margin: 45px 0 24px 276px;
+    margin: 45rem 0 24rem 276rem;
 }
 
 #oborudovanie-vsegda-v-nalichii {
     font-family: open_sansregular;
-    font-size: 14px;
+    font-size: 14rem;
 }
 
 #oborudovanie-vsegda-v-nalichii img {
-    width: 45px;
-    height: 45px;
-    margin-right: 10px;
+    width: 45rem;
+    height: 45rem;
+    margin-right: 10rem;
     vertical-align: middle;
 }
 
@@ -816,16 +828,16 @@ span {
     text-align: left;
     vertical-align: top;
     position: relative;
-    left: 146px;
-    margin-right: 28px;
+    left: 146rem;
+    margin-right: 28rem;
 }
 
 #oborudovanie-vsegda-v-nalichii li {
-    height: 69px;
+    height: 69rem;
     display: block;
     vertical-align: top;
     text-align: left;
-    line-height: 16px;
+    line-height: 16rem;
 
 }
 
@@ -849,28 +861,28 @@ span {
 
     background: url("img/orange-svarshik.png") no-repeat;
     background-size: 100%;
-    height: 487px;
+    height: 487rem;
 }
 
 #nashi-clienty-o-nas-text {
-    margin: 30px 0 0 275px;
+    margin: 30rem 0 0 275rem;
     color: white;
 }
 
 .big-white {
     font-family: pf_agora_sans_problack;
-    font-size: 38px;
+    font-size: 38rem;
 }
 
 .sans-white {
     font-family: open_sanslight;
-    font-size: 37px;
+    font-size: 37rem;
 }
 
 #nashi-clienty-o-nas-list {
     position: relative;
-    top: 24px;
-    left: 140px;
+    top: 24rem;
+    left: 140rem;
 
 }
 
@@ -881,24 +893,24 @@ span {
 }
 
 #nashi-clienty-o-nas-list ul {
-    margin-right: 21px;
+    margin-right: 21rem;
 }
 
 #nashi-clienty-o-nas-list span {
     opacity: 1;
     font-family: open_sansregular;
-    font-size: 10px;
+    font-size: 10rem;
     position: relative;
-    line-height: 14px;
-    top: 10px;
-    left: 21px;
+    line-height: 14rem;
+    top: 10rem;
+    left: 21rem;
 }
 
 .list-bg {
     background-color: white;
     opacity: 0.79;
-    width: 349px;
-    height: 143px;
+    width: 349rem;
+    height: 143rem;
 }
 
 .list-bg:after {
@@ -906,35 +918,35 @@ span {
     background-color: white;
     z-index: -1;
     display: block;
-    height: 26px;
-    left: 37px;
-    top: -5px;
+    height: 26rem;
+    left: 37rem;
+    top: -5rem;
     position: relative;
     transform: rotate(-45deg) skew(-45deg);
     -moz-transform: rotate(-45deg) skew(-45deg);
     -ms-transform: rotate(-45deg) skew(-45deg);
     -o-transform: rotate(-45deg) skew(-45deg);
     -webkit-transform: rotate(-45deg) skew(-45deg);
-    width: 22px;
+    width: 22rem;
 }
 
 .medium-black {
     font-family: open_sansbold;
-    font-size: 17px;
+    font-size: 17rem;
 
 }
 
 .left-quote {
-    font-size: 31px;
+    font-size: 31rem;
     font-family: open_sansregular;
     vertical-align: top;
     position: relative;
-    left: 18px;
-    top: -2px;
+    left: 18rem;
+    top: -2rem;
 }
 
 .h1-in-list {
-    margin: 13px 0 0 18px;
+    margin: 13rem 0 0 18rem;
     opacity: 1;
 }
 
@@ -942,11 +954,11 @@ span {
     display: block !important;
     font-family: open_sansbold !important;
     font-style: italic;
-    font-size: 10px !important;
+    font-size: 10rem !important;
     position: relative !important;
-    top: 12px !important;
-    left: 23px !important;
-    height: 46px;
+    top: 12rem !important;
+    left: 23rem !important;
+    height: 46rem;
     color: white;
 }
 
@@ -955,42 +967,50 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #kak-my-rabotaem-text {
-    margin: 45px 0 0 331px;
-}
-
-#kak-my-rabotaem {
-    height: 320px;
+    margin-top: 43rem;
     display: block;
 }
 
+#kak-my-rabotaem {
+    height: 274rem;
+    display: block;
+    text-align: center;
+
+}
+
 #rabot-icons {
-    margin: 24px 0px 0px 140px;
+    text-align: center;
+    position: relative;
+    top: 24rem;
+    /*left: 20rem;*/
 }
 
 #rabot-icons div {
     vertical-align: top;
-    margin-right: 4px;
+    margin-right: 23rem;
+    margin-left: 18rem;
+    text-align: left;
 }
 
 #rabot-icons img {
-    width: 73%;
-    height: 73%;
+    width: 75%;
+    height: 75%;
 }
 
 #rabot-icons h1 {
     font-family: open_sansbold;
     position: relative;
-    font-size: 12px;
-    top: 1px;
-    line-height: 15px;
+    font-size: 12rem;
+    top: 5rem;
+    line-height: 15rem;
 }
 
 #rabot-icons span {
     font-family: open_sansregular;
-    font-size: 10px;
+    font-size: 10rem;
     position: relative;
-    top: 4px;
-    line-height: 12px;
+    top: 8rem;
+    line-height: 12rem;
 }
 
 /*--------------------------------------------------------------------------------- /
@@ -999,20 +1019,20 @@ span {
 
 #geografia-zakazov {
     display: block;
-    height: 446px;
+    height: 446rem;
 }
 
 #geografia-zakazov-text {
     text-align: center;
     vertical-align: top;
-    margin: 24px 0 0 285px;
+    margin: 24rem 0 0 285rem;
 }
 
 #geografia-zakazov img {
     width: 78%;
     position: relative;
-    top: -90px;
-    left: 99px;
+    top: -90rem;
+    left: 99rem;
     z-index: -1;
 }
 
@@ -1021,33 +1041,33 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #eshe {
-    height: 262px;
+    height: 262rem;
     display: block;
 }
 
 #eshe-text {
-    margin: 8px 0 0 209px;
+    margin: 11rem 0 0 209rem;
     vertical-align: top;
 
 }
 
 #eshe-list {
-    margin: 35px 0px 0px 163px;
+    margin: 35rem 0rem 0rem 158rem;
 }
 
 #eshe-list div {
     text-align: center;
     vertical-align: top;
-    margin-right: 35px;
+    margin-right: 40rem;
 }
 
 #eshe-list span {
     text-align: center;
     font-family: open_sansregular;
-    font-size: 13px;
+    font-size: 13rem;
     position: relative;
-    top: 15px;
-    line-height: 15px;
+    top: 17rem;
+    line-height: 15rem;
 }
 
 /*--------------------------------------------------------------------------------- /
@@ -1055,21 +1075,26 @@ span {
 /--------------------------------------------------------------------------------- */
 
 #gde-my-nahodimsya-text {
-    margin: 25px 0px 32px 313px;
+    margin: 25rem 0rem 32rem 313rem;
 }
 
 .karta_text {
-    margin: 16px 0px 0px 148px;
+    margin: 23rem 0rem 0rem 148rem;
     vertical-align: top;
 }
 
+#karta-img {
+    width:100%;
+    height:242rem;
+}
+
 .title_down {
-    font-size: 30px;
+    font-size: 30rem;
     font-family: "pf_agora_slab_problack";
 }
 
 .ekspert {
-    font-size: 10px;
+    font-size: 10rem;
 }
 
 .sans-regular {
@@ -1082,28 +1107,28 @@ span {
 
 .spravoch {
     position: relative;
-    left: 41px;
+    left: 41rem;
 
 }
 
 .spravoch_text {
-    font-size: 13px;
+    font-size: 13rem;
     color: #abaaad;
 }
 
 .phone_spravoch {
-    font-size: 23px;
+    font-size: 23rem;
 }
 
 .ostavte_zayavku_sprav {
     font-family: open_sansbold;
-    font-size: 19px;
+    font-size: 19rem;
 }
 
 .i_poluchite_otvet_sprav {
     font-family: open_sansregular;
-    font-size: 13px;
-    margin-top: 5px;
+    font-size: 13rem;
+    margin-top: 5rem;
 }
 
 .last-form {
@@ -1111,19 +1136,19 @@ span {
     background-color: #3b3840;
     color: white;
     text-align: center;
-    padding: 23px 31px 0 32px;
+    padding: 23rem 31rem 0 32rem;
     font-family: open_sansregular;
-    font-size: 14px;
+    font-size: 14rem;
 }
 
 .last-form input {
     text-align: center;
     border: 1px solid white;
-    font-size: 16px;
+    font-size: 16rem;
     border-radius: 5px;
-    margin: 6px 0 4px 0;
-    width: 189px;
-    height: 30px;
+    margin: 6rem 0 4rem 0;
+    width: 189rem;
+    height: 30rem;
     font-family: open_sansregular;
 
 }
@@ -1132,8 +1157,8 @@ span {
     color: white;
     background-color: #ff8a00;
     border: 1px solid #ff8a00;
-    box-shadow: 0 5px #3b1e00;
-    height: 32px;
+    box-shadow: 0 5rem #3b1e00;
+    height: 32rem;
 }
 
 .last-form [type=submit]:hover {
@@ -1149,8 +1174,8 @@ span {
     border: 1px solid #ef7a00;
     box-shadow: 0 0 #3b1e00;
     position: relative;
-    top: 5px;
-    padding: 8px 28px;
+    top: 5rem;
+    padding: 8rem 28rem;
 }
 
 
