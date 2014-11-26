@@ -6,18 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>СварЭкс</title>
 
-    <!-- Начало Скрипты jQUery, inputmask , jqModal -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="./js/jquery.inputmask.js"></script>
-    <script src="./js/jqModal.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $(".input-phone").inputmask("mask", {"mask": "+7 (999) 999-9999"});
-            $("#modal").jqm();
-        })
-    </script>
-    <!-- Конец Скрипты jQUery, inputmask, jqModal -->
+   
 
 </head>
 <body>
@@ -763,10 +752,13 @@
 </div>
 
 <script>
-    var screenWidth=screen.width-20;
-    document.documentElement.style.fontSize=screenWidth/1000 +"px";
-    document.getElementById("wrapper").style.minWidth=screenWidth+"px";
-    document.getElementById("wrapper").style.maxWidth=screenWidth+"px";
+    window.onload = window.onresize = function () {
+        var screenWidth = window.innerWidth - 24;
+        document.documentElement.style.fontSize = screenWidth / 1000 + "px";
+        document.getElementById("wrapper").style.minWidth = screenWidth + "px";
+        document.getElementById("wrapper").style.maxWidth = screenWidth + "px";
+        //console.log(screenWidth);
+    }
     /*console.log(screen.width);
     console.log(screen.availWidth);
     console.log(window.screen.width);
@@ -777,7 +769,18 @@
 
 </script>
 
+ <!-- Начало Скрипты jQUery, inputmask , jqModal -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="./js/jquery.inputmask.js"></script>
+    <script src="./js/jqModal.min.js"></script>
 
+    <script>
+        $(document).ready(function () {
+            $(".input-phone").inputmask("mask", {"mask": "+7 (999) 999-9999"});
+            $("#modal").jqm();
+        })
+    </script>
+    <!-- Конец Скрипты jQUery, inputmask, jqModal -->
 
 </body>
 </html>
